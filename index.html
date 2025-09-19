@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Other Wes Moore - A Tale of Two Lives</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-container">
+                <h1>The Other Wes Moore</h1>
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="characters.html">Characters</a></li>
+                    <li><a href="themes.html">Themes</a></li>
+                    <li><a href="analysis.html">Analysis</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h2>Two Kids Named Wes Moore</h2>
+                <p class="hero-subtitle">One became a Rhodes Scholar, the other is serving life in prison</p>
+                <button id="explore-btn" class="cta-button">Explore Their Stories</button>
+            </div>
+        </section>
+
+        <section class="introduction">
+            <div class="container">
+                <h3>About the Book</h3>
+                <p>
+                    "The Other Wes Moore" by Wes Moore tells the story of two young African-American men 
+                    who shared the same name and similar backgrounds but ended up on vastly different paths. 
+                    This powerful narrative explores the factors that influenced their divergent destinies.
+                </p>
+                
+                <div class="story-cards">
+                    <div class="card" data-character="author">
+                        <h4>Wes Moore (Author)</h4>
+                        <p>Rhodes Scholar, paratrooper, White House Fellow, and bestselling author.</p>
+                        <button class="learn-more" data-target="author">Learn More</button>
+                    </div>
+                    
+                    <div class="card" data-character="other">
+                        <h4>Wes Moore (The Other)</h4>
+                        <p>Currently serving a life sentence for the murder of a police officer.</p>
+                        <button class="learn-more" data-target="other">Learn More</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="interactive-timeline" id="timeline">
+            <div class="container">
+                <h3>Interactive Timeline</h3>
+                <p>Click on the timeline events to explore key moments in both Wes Moore's lives.</p>
+                <div class="timeline-container">
+                    <div class="timeline-event" data-year="1975">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h4>1975</h4>
+                            <p>Both Wes Moores are born</p>
+                        </div>
+                    </div>
+                    <div class="timeline-event" data-year="1984">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h4>1984</h4>
+                            <p>Author Wes's father dies</p>
+                        </div>
+                    </div>
+                    <div class="timeline-event" data-year="1991">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h4>1991</h4>
+                            <p>Other Wes's first arrest</p>
+                        </div>
+                    </div>
+                    <div class="timeline-event" data-year="2000">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h4>2000</h4>
+                            <p>Other Wes convicted of murder</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 The Other Wes Moore Project. Educational use only.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
